@@ -1,6 +1,6 @@
 # Project Name: Page2Setup
-## Author: Eric Greenhalgh
-## Date Initialized: May 19, 2020
+### Author: Eric Greenhalgh
+### Date Initialized: May 19, 2020
 ---
 ### The scope of this project is to creat a simple comparitor of a contract provided my the company I work for and compare it to the setup that we utilize for billing. It is not inteneded to cover all aspects of the comparison, but is only to be used as a demonstration of a proof-of-concept.
 ---
