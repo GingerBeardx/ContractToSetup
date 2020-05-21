@@ -9,15 +9,10 @@ methodology for each property. A comparison will then be made between the method
 show what matches and what varies from the service contract. The results will then be 
 saved in another excel file.
 """
-from tabula import read_pdf
+import tabula
 
-df = read_pdf(
-    "files\wm66 Waterstone at Moorpark RUBS Billing Agreement (2).pdf",
-    pages = "all",
-    multiple_tables = True
-)
-
-print(df)
+file = "files\wm66 Waterstone at Moorpark RUBS Billing Agreement (2).pdf"
+tabula.convert_into(file, "files\\tables.csv", pages = "all")
 
 # Read the service agreement PDF
 # Extract the billing methods from the service agreementPDF
