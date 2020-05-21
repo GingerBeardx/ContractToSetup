@@ -44,7 +44,17 @@ def convert_pdf_to_txt(path):
 pdf = convert_pdf_to_txt(
     'files\wm66 Waterstone at Moorpark RUBS Billing Agreement (2).pdf'
 )
-print(pdf)
+# print(pdf)
+
+from tabula import read_pdf
+
+df = read_pdf(
+    "files\wm66 Waterstone at Moorpark RUBS Billing Agreement (2).pdf",
+    pages = "all",
+    multiple_tables = True
+)
+
+print(df)
 
 # Read the service agreement PDF
 # Extract the billing methods from the service agreementPDF
