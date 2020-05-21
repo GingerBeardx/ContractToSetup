@@ -6,7 +6,7 @@
 ---
 ### Project Objectives:
 1) Open the contract PDF and read it - Scan for bill methods
-2) Open the billing methodology report
-3) Check the bill methods from the PDF against the methodology report
-4) Create an excel file and export a report of the comparison.
-5) Use simple highlighting to show what matched on the page 2 and what did not match.
+1) Open the billing methodology report
+1) Check the bill methods from the PDF against the methodology report
+1) Create an excel file and export a report of the comparison.
+1) Use simple highlighting to show what matched on the page 2 and what did not match.
